@@ -1,0 +1,83 @@
+[33mcommit e5f04b9dd45c54b8240ef94778d718f8d4664ebc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 14:13:47 2024 -0500
+
+    Add CustomerView
+
+[33mcommit b451b016813e9f17a4c20c3687eab0e154c49f74[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 12:44:42 2024 -0500
+
+    Add interface ICustomerView
+
+[33mcommit e9ccf465dd2fc82bad009ea6d54b1f4f2217fa33[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 12:35:27 2024 -0500
+
+    Add interface ICustomerRepository
+
+[33mcommit 92dbe0751ac1c7dd587b6d997cfc43bdd7a36c77[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 12:28:03 2024 -0500
+
+    Add CustomerModel
+
+[33mcommit 3dc64797eb7db2c9aa6fbe9f2ef47abf6efa9c68[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 02:38:03 2024 -0500
+
+    correccion commandText Update
+
+[33mcommit 8b285aecab7098ad3e352aebf38d1c1286cf9dd1[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 02:24:08 2024 -0500
+
+    Correccion commandText GetByValue
+
+[33mcommit a842f6986eb0b1abd05045a0cc82eb0b166c7bb2[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 01:46:20 2024 -0500
+
+    Update Presenter y Repository for Pay Mode
+
+[33mcommit 32bcfada02fa39661dcd78e0213ffc4598f6ffce[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Tue Oct 8 00:02:51 2024 -0500
+
+    Adjustments to views
+
+[33mcommit 456cd069f2defd795564f58814a0316dae503af8[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 23:37:11 2024 -0500
+
+    Main View
+
+[33mcommit 13004507b0e8bcdbcae7b90efe49a28aeec7f9b4[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 22:57:16 2024 -0500
+
+    Pay Mode Repository - Search
+
+[33mcommit 012ac6b8410e6ebcd4ea7dd33a6893349d4df4fe[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 21:42:22 2024 -0500
+
+    Pay Mode Presenter
+
+[33mcommit bb7c4b6a4107e319510954879503d2996755479b[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 15:28:01 2024 -0500
+
+    Pay Mode View
+
+[33mcommit 0c464a65320f824f47433bfaac5f61c07a39ce1b[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 00:27:48 2024 -0500
+
+    GitIgnore
+
+[33mcommit cf27164a5abf4abcdafffdf54f6ebce084a44245[m
+Author: IkerMiguel <ikmiguel03@gmail.com>
+Date:   Mon Oct 7 00:14:37 2024 -0500
+
+    Initial Project
