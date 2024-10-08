@@ -31,6 +31,6 @@ namespace Supermarket_mvp.Views
 
         void SetCustomerListBildingSource(BindingSource customerList);
 
-        void show();
+        void Show();
     }
 }
