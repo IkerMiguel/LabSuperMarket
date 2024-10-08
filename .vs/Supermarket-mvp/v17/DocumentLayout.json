@@ -3,32 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\imainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\imainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\icustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\icustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Supermarket/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Supermarket/True/SqlTable/dbo.PayMode.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +24,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.PayMode [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Supermarket/True/SqlTable/dbo.PayMode.sql",
+              "ToolTip": "dbo.PayMode [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-08T20:06:15.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IMainView.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\IMainView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\IMainView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\IMainView.cs",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\IMainView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T19:16:58.053Z",
+              "Title": "dbo.Customer [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Supermarket/True/SqlTable/dbo.Customer.sql",
+              "ToolTip": "dbo.Customer [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-08T20:04:20.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainView.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\MainView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\MainView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\MainView.cs*",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\MainView.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\CustomerRepository.cs*",
+              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\CustomerRepository.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T19:12:02.821Z",
+              "WhenOpened": "2024-10-08T19:58:57.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\MainView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\MainView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\MainView.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\MainView.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T19:10:50.139Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CustomerModel.cs",
               "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Models\\CustomerModel.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\Models\\CustomerModel.cs",
               "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Models\\CustomerModel.cs",
               "RelativeToolTip": "Supermarket-mvp\\Models\\CustomerModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T19:09:45.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\CustomerView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\CustomerView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\CustomerView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\CustomerView.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T17:45:58.574Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPayModeView.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\IPayModeView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\IPayModeView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\IPayModeView.cs",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\IPayModeView.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T17:41:23.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICustomerView.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ICustomerView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\ICustomerView.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ICustomerView.cs",
-              "RelativeToolTip": "Supermarket-mvp\\Views\\ICustomerView.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T17:36:54.824Z",
+              "WhenOpened": "2024-10-08T20:11:57.206Z",
               "EditorCaption": ""
             }
           ]
