@@ -21,6 +21,8 @@ namespace Supermarket_mvp.Views
             InitializeComponent();
             AssociateAndRaiseViewEvents();
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
+
+            BtnClose.Click += delegate { this.Close(); };
         }
 
         private void AssociateAndRaiseViewEvents()
@@ -87,11 +89,15 @@ namespace Supermarket_mvp.Views
 
         private static PayModelView instace;
 
-        public static PayModelView GetInstace() 
+        public static PayModelView GetInstace(Form parentContainer) 
         {
             if (instace == null || instace.IsDisposed)
             {
                 instace = new PayModelView();
+                instace.MdiParent = parentContainer;
+
+                instace.FormBorderStyle = FormBorderStyle.None;
+                instace.Dock = DockStyle.Fill;
             }
             else 
             {
