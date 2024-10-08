@@ -84,7 +84,7 @@ namespace Supermarket_mvp.Views
                 CancelEvent?.Invoke(this, EventArgs.Empty);
 
                 tabControl1.TabPages.Remove(tabPageCustomerDetail);
-                tabControl1.TabPages.Add(tabPageCustomerList);
+                tabControl1.TabPages.Add(tabPageCustomerList);  
             };
         }
 
