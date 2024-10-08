@@ -80,7 +80,7 @@ namespace Supermarket_mvp.Views
 
         public void SetPayModeListBildingSource(BindingSource payModeList)
         {
-            throw new NotImplementedException();
+            DgPayMode.DataSource = payModeList;
         }
 
     }
