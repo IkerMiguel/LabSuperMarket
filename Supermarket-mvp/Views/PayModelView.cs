@@ -83,5 +83,25 @@ namespace Supermarket_mvp.Views
             DgPayMode.DataSource = payModeList;
         }
 
+        //Singleton
+
+        private static PayModelView instace;
+
+        public static PayModelView GetInstace() 
+        {
+            if (instace == null || instace.IsDisposed)
+            {
+                instace = new PayModelView();
+            }
+            else 
+            {
+                if (instace.WindowState == FormWindowState.Minimized) 
+                {
+                    instace.WindowState = FormWindowState.Normal;
+                }
+            }
+            return instace;
+        }
+
     }
 }

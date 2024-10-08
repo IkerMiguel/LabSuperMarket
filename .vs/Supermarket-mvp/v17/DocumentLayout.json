@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Program.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Program.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Program.cs",
-              "RelativeToolTip": "Supermarket-mvp\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Title": "MainPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\Presenters\\MainPresenter.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
+              "RelativeToolTip": "Supermarket-mvp\\Presenters\\MainPresenter.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:54:50.747Z",
+              "WhenOpened": "2024-10-08T04:33:32.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PayModeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAApwD8AAABIAAAAAAAAAA==",
+              "Title": "PayModelView.cs",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\PayModelView.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\PayModelView.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\PayModelView.cs",
+              "RelativeToolTip": "Supermarket-mvp\\Views\\PayModelView.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:50:47.906Z",
+              "WhenOpened": "2024-10-08T04:28:49.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PayModePresenter.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "RelativeToolTip": "Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PayModelView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\PayModelView.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\PayModelView.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\PayModelView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Supermarket-mvp\\Views\\PayModelView.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:49:27.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T04:27:14.308Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
