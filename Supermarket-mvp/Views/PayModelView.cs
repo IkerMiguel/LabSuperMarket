@@ -15,7 +15,7 @@ namespace Supermarket_mvp.Views
     {
         private bool isEdit;
         private bool isSuccessful;
-        private string mensage;
+        private string message;
         public PayModelView()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace Supermarket_mvp.Views
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
 
             BtnClose.Click += delegate { this.Close(); };
+
         }
 
         private void AssociateAndRaiseViewEvents()
@@ -34,6 +35,58 @@ namespace Supermarket_mvp.Views
                 {
                     SearchEvent?.Invoke(this, EventArgs.Empty);
                 }
+            };
+
+            BtnNew.Click += delegate 
+            { 
+                AddNewEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPagePayModeList);
+                tabControl1.TabPages.Add(tabPagePayModeDetail);
+                tabPagePayModeDetail.Text = "Add new Pay Mode";
+            };
+
+            BtnEdit.Click += delegate 
+            { 
+                EditEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPagePayModeList);
+                tabControl1.TabPages.Add(tabPagePayModeDetail);
+                tabPagePayModeDetail.Text = "Edit Pay Mode";
+            };
+
+            BtnDelete.Click += delegate 
+            {
+                var result = MessageBox.Show(
+                    "Are you sure you want  to delete the selected Pay Mode",
+                    "Warning",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes) 
+                {
+                    DeleteEvent?.Invoke(this, EventArgs.Empty);
+                    MessageBox.Show(Message);
+                }
+                
+            };
+
+            BtnSave.Click += delegate 
+            { 
+                SaveEvent?.Invoke(this, EventArgs.Empty);
+
+                if (isSuccessful) 
+                {
+                    tabControl1.TabPages.Remove(tabPagePayModeDetail);
+                    tabControl1.TabPages.Add(tabPagePayModeList);
+                }
+                MessageBox.Show(Message);
+            };
+            BtnCancel.Click += delegate 
+            { 
+                CancelEvent?.Invoke(this, EventArgs.Empty);
+
+                tabControl1.TabPages.Remove(tabPagePayModeDetail);
+                tabControl1.TabPages.Add(tabPagePayModeList);
             };
         }
 
@@ -67,10 +120,10 @@ namespace Supermarket_mvp.Views
             get { return isSuccessful; }
             set { isSuccessful = value; }
         }
-        public string Mensage 
+        public string Message 
         {
-            get { return mensage; }
-            set { mensage = value; }
+            get { return message; }
+            set { message = value; }
         }
 
         public event EventHandler SearchEvent;
