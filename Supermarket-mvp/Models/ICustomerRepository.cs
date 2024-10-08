@@ -9,7 +9,7 @@ namespace Supermarket_mvp.Models
     internal interface ICustomerRepository
     {
         void Add(CustomerModel customerModel);
-        void Update(CustomerModel customerModel);
+        void Edit(CustomerModel customerModel);
         void Delete(int id);
 
         IEnumerable<CustomerModel> GetAll();

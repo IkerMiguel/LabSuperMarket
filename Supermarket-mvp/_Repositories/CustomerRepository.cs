@@ -26,6 +26,11 @@ namespace Supermarket_mvp._Repositories
             throw new NotImplementedException();
         }
 
+        public void Edit(CustomerModel customerModel)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<CustomerModel> GetAll()
         {
             var customerList = new List<CustomerModel>();

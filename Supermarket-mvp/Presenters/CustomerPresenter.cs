@@ -22,11 +22,11 @@ namespace Supermarket_mvp.Presenters
             this.view = view;
             this.repository = repository;
 
-            this.view.SearchEvent += SearchPayMode;
-            this.view.AddNewEvent += AddNewPayMode;
-            this.view.EditEvent += LoadSelectPayModeToEdit;
-            this.view.DeleteEvent += DeleteSelectedPayMode;
-            this.view.SaveEvent += SavePayMode;
+            this.view.SearchEvent += SearchCustomer;
+            this.view.AddNewEvent += AddNewCustomer;
+            this.view.EditEvent += LoadSelectCustomerToEdit;
+            this.view.DeleteEvent += DeleteSelectedCustomer;
+            this.view.SaveEvent += SaveCustomer;
             this.view.CancelEvent += CancelAction;
 
             this.view.SetCustomerListBildingSource(customerBindingSource);
@@ -47,27 +47,37 @@ namespace Supermarket_mvp.Presenters
             throw new NotImplementedException();
         }
 
-        private void SavePayMode(object? sender, EventArgs e)
+        private void SaveCustomer(object? sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void DeleteSelectedPayMode(object? sender, EventArgs e)
+        private void DeleteSelectedCustomer(object? sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void LoadSelectPayModeToEdit(object? sender, EventArgs e)
+        private void LoadSelectCustomerToEdit(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var customer = (CustomerModel)customerBindingSource.Current;
+            view.CustomerId = customer.Id.ToString();
+            view.CustomerDocument = customer.Document;
+            view.CustomerFirstName = customer.FirstName;
+            view.CustomerLastName = customer.LastName;
+            view.CustomerAddress = customer.Address;
+            view.CustomerBirthday = customer.Birthday.ToString();
+            view.CustomerPhoneNumber = customer.PhoneNumber;
+            view.CustomerEmail = customer.Email;
+
+            view.IsEdit = true;
         }
 
-        private void AddNewPayMode(object? sender, EventArgs e)
+        private void AddNewCustomer(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            view.IsEdit = false;
         }
 
-        private void SearchPayMode(object? sender, EventArgs e)
+        private void SearchCustomer(object? sender, EventArgs e)
         {
             bool emptyValue = string.IsNullOrWhiteSpace(this.view.SearchValue);
             if (emptyValue == false)
