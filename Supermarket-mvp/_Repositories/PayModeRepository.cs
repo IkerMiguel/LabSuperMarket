@@ -51,7 +51,10 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "@UPDATE PayMode SET Pay_Mode_Name = @name, Pay_Mode_Observation = @observation, WHERE Pay_Mode_Id = @Id";
+                command.CommandText = @"UPDATE PayMode 
+                                        SET Pay_Mode_Name = @name, 
+                                        Pay_Mode_Observation = @observation 
+                                        WHERE Pay_Mode_Id = @Id";
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = payModeModel.Name;
                 command.Parameters.Add("@observation", SqlDbType.NVarChar).Value = payModeModel.Observation;
                 command.Parameters.Add("@id", SqlDbType.Int).Value = payModeModel.Id;
@@ -94,7 +97,9 @@ namespace Supermarket_mvp._Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"SELECT * FROM PayMode WHERE Pay_Mode_Id=@id or Pay_Mode_Name LIKE @name+ '%' ORDER by Pay_Mode_Id DESC";
+                command.CommandText = @"SELECT * FROM PayMode 
+                                      WHERE Pay_Mode_Id=@id or Pay_Mode_Name LIKE @name+ '%' 
+                                      ORDER by Pay_Mode_Id DESC";
                 command.Parameters.Add("@id", SqlDbType.Int).Value = payModeId;
                 command.Parameters.Add("@name", SqlDbType.NVarChar).Value = payModeName;
                 using (var reader = command.ExecuteReader()) 
