@@ -123,6 +123,8 @@
             // 
             DgCategorie.AllowUserToAddRows = false;
             DgCategorie.AllowUserToDeleteRows = false;
+            DgCategorie.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            DgCategorie.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgCategorie.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgCategorie.Location = new Point(12, 74);
             DgCategorie.Name = "DgCategorie";
@@ -132,6 +134,7 @@
             // 
             // BtnClose
             // 
+            BtnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnClose.Image = Properties.Resources.cerrar;
             BtnClose.Location = new Point(626, 242);
             BtnClose.Name = "BtnClose";
@@ -141,6 +144,7 @@
             // 
             // BtnDelete
             // 
+            BtnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnDelete.Image = Properties.Resources.delete;
             BtnDelete.Location = new Point(626, 186);
             BtnDelete.Name = "BtnDelete";
@@ -150,6 +154,7 @@
             // 
             // BtnEdit
             // 
+            BtnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnEdit.Image = Properties.Resources.edit;
             BtnEdit.Location = new Point(626, 130);
             BtnEdit.Name = "BtnEdit";
@@ -159,6 +164,7 @@
             // 
             // BtnNew
             // 
+            BtnNew.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnNew.Image = Properties.Resources._new;
             BtnNew.Location = new Point(626, 74);
             BtnNew.Name = "BtnNew";
@@ -168,6 +174,7 @@
             // 
             // BtnSearch
             // 
+            BtnSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnSearch.Image = Properties.Resources.search_small;
             BtnSearch.Location = new Point(568, 15);
             BtnSearch.Name = "BtnSearch";
@@ -185,6 +192,7 @@
             // 
             // TxtSearch
             // 
+            TxtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             TxtSearch.Location = new Point(12, 30);
             TxtSearch.Name = "TxtSearch";
             TxtSearch.PlaceholderText = "Data to search";
@@ -272,8 +280,11 @@
             // 
             TxtCategorieId.Location = new Point(12, 30);
             TxtCategorieId.Name = "TxtCategorieId";
+            TxtCategorieId.ReadOnly = true;
             TxtCategorieId.Size = new Size(236, 23);
             TxtCategorieId.TabIndex = 1;
+            TxtCategorieId.Text = "0";
+            TxtCategorieId.TextAlign = HorizontalAlignment.Right;
             // 
             // label4
             // 

@@ -105,9 +105,9 @@ namespace Supermarket_mvp._Repositories
                     while (reader.Read())
                     {
                         var categorieModel = new CategorieModel();
-                        categorieModel.Id = (int)reader["Pay_Mode_Id"];
-                        categorieModel.Name = reader["Pay_Mode_Name"].ToString();
-                        categorieModel.Description = reader["Pay_Mode_Observation"].ToString();
+                        categorieModel.Id = (int)reader["Categorie_Id"];
+                        categorieModel.Name = reader["Categorie_Name"].ToString();
+                        categorieModel.Description = reader["Categorie_Description"].ToString();
                         categorieList.Add(categorieModel);
                     }
                 }

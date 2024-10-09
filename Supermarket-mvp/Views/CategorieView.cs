@@ -27,7 +27,7 @@ namespace Supermarket_mvp.Views
         private void AssociateAndRaiseViewEvents()
         {
             BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
-            BtnSearch.KeyDown += (s, e) =>
+            TxtSearch.KeyDown += (s, e) =>
             {
                 if (e.KeyCode == Keys.Enter)
                 {
@@ -106,8 +106,8 @@ namespace Supermarket_mvp.Views
 
         public string SearchValue
         {
-            get { return BtnSearch.Text; }
-            set { BtnSearch.Text = value; }
+            get { return TxtSearch.Text; }
+            set { TxtSearch.Text = value; }
         }
         public bool IsEdit
         {
@@ -137,13 +137,13 @@ namespace Supermarket_mvp.Views
             DgCategorie.DataSource = categorieList;
         }
 
-        private static PayModelView instace;
+        private static CategorieView instace;
 
-        public static PayModelView GetInstace(Form parentContainer)
+        public static CategorieView GetInstace(Form parentContainer)
         {
             if (instace == null || instace.IsDisposed)
             {
-                instace = new PayModelView();
+                instace = new CategorieView();
                 instace.MdiParent = parentContainer;
 
                 instace.FormBorderStyle = FormBorderStyle.None;
