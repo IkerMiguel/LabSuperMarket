@@ -18,17 +18,62 @@ namespace Supermarket_mvp._Repositories
 
         public void Add(CustomerModel customerModel)
         {
-            throw new NotImplementedException();
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "INSERT INTO Customer VALUES (@document, @firstName, @lastName, @address, @birthday, @phoneNumber, @Email)";
+                command.Parameters.Add("@document", SqlDbType.NVarChar).Value = customerModel.Document;
+                command.Parameters.Add("@firstName", SqlDbType.NVarChar).Value = customerModel.FirstName;
+                command.Parameters.Add("@lastName", SqlDbType.NVarChar).Value = customerModel.LastName;
+                command.Parameters.Add("@address", SqlDbType.NVarChar).Value = customerModel.Address;
+                command.Parameters.Add("@birthday", SqlDbType.DateTime).Value = customerModel.Birthday;
+                command.Parameters.Add("@phoneNumber", SqlDbType.NVarChar).Value = customerModel.PhoneNumber;
+                command.Parameters.Add("@Email", SqlDbType.NVarChar).Value = customerModel.Email;
+                command.ExecuteNonQuery();
+            }
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "DELETE FROM Customer WHERE Customer_Id = @id";
+                command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+                command.ExecuteNonQuery();
+            }
         }
 
         public void Edit(CustomerModel customerModel)
         {
-            throw new NotImplementedException();
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"UPDATE Customer
+                                        SET Customer_Document =@document,
+                                        Customer_First_Name =@firstName,
+                                        Customer_Last_Name =@lastName,
+                                        Customer_Address =@address,
+                                        Customer_Birthday =@birthday,
+                                        Customer_Phone =@phoneNumber,
+                                        Customer_Email =@Email
+                                        WHERE Customer_Id =@id";
+                command.Parameters.Add("@id", SqlDbType.Int).Value = customerModel.Id;
+                command.Parameters.Add("@document", SqlDbType.NVarChar).Value = customerModel.Document;
+                command.Parameters.Add("@firstName", SqlDbType.NVarChar).Value = customerModel.FirstName;
+                command.Parameters.Add("@lastName", SqlDbType.NVarChar).Value = customerModel.LastName;
+                command.Parameters.Add("@address", SqlDbType.NVarChar).Value = customerModel.Address;
+                command.Parameters.Add("@birthday", SqlDbType.DateTime).Value = customerModel.Birthday;
+                command.Parameters.Add("@phoneNumber", SqlDbType.NVarChar).Value = customerModel.PhoneNumber;
+                command.Parameters.Add("@Email", SqlDbType.NVarChar).Value = customerModel.Email;
+                command.ExecuteNonQuery();
+            }
         }
 
         public IEnumerable<CustomerModel> GetAll()
@@ -71,9 +116,9 @@ namespace Supermarket_mvp._Repositories
                 connection.Open();
                 command.Connection = connection;
                 command.CommandText = @"SELECT * FROM Customer
-                                        WHERE Customer_Id=@Id or Customer_Document LIKE @document+ '%'
+                                        WHERE Customer_Id=@id or Customer_Document LIKE @document+ '%'
                                         ORDER BY Customer_Id DESC";
-                command.Parameters.Add("@Id", SqlDbType.Int).Value = customerId;
+                command.Parameters.Add("@id", SqlDbType.Int).Value = customerId;
                 command.Parameters.Add("@document", SqlDbType.NVarChar).Value = customerDocument;
                 using (var reader = command.ExecuteReader())
                 {
@@ -94,11 +139,6 @@ namespace Supermarket_mvp._Repositories
             }
 
             return customerList;
-        }
-
-        public void Update(CustomerModel customerModel)
-        {
-            throw new NotImplementedException();
         }
     }
 }

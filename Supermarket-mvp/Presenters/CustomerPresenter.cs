@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Supermarket_mvp.Presenters
 {
@@ -44,17 +45,71 @@ namespace Supermarket_mvp.Presenters
 
         private void CancelAction(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            CleanViewFields();
         }
 
         private void SaveCustomer(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var customer = new CustomerModel();
+            customer.Id = Convert.ToInt32(view.CustomerId);
+            customer.Document = view.CustomerDocument;
+            customer.FirstName = view.CustomerFirstName;
+            customer.LastName = view.CustomerLastName;
+            customer.Address = view.CustomerAddress;
+            customer.Birthday = DateTime.Parse(view.CustomerBirthday);
+            customer.PhoneNumber = view.CustomerPhoneNumber;
+            customer.Email = view.CustomerEmail;
+
+            try
+            {
+                new Common.ModelDataValidation().Validate(customer);
+                if (view.IsEdit)
+                {
+                    repository.Edit(customer);
+                    view.Message = "Customer Edit Successfuly";
+                }
+                else 
+                {
+                    repository.Add(customer);
+                    view.Message = "Customer added Successfuly";
+                }
+                view.IsSuccessful = true;
+                LoadAllCustomerList();
+                CleanViewFields();
+            }catch (Exception ex) 
+            {
+                view.IsSuccessful = false;
+                view.Message = ex.Message;
+            }
+        }
+
+        private void CleanViewFields()
+        {
+            view.CustomerId = "";
+            view.CustomerDocument = "";
+            view.CustomerFirstName = "";
+            view.CustomerLastName = "";
+            view.CustomerAddress = "";
+            view.CustomerBirthday = "";
+            view.CustomerPhoneNumber = "";
+            view.CustomerEmail = "";
         }
 
         private void DeleteSelectedCustomer(object? sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var customer = (CustomerModel) customerBindingSource.Current;
+                repository.Delete(customer.Id);
+                view.IsSuccessful = true;
+                view.Message = "Customer deleted Successfuly";
+                LoadAllCustomerList();
+            }
+            catch (Exception ex) 
+            {
+                view.IsSuccessful = false;
+                view.Message = "An error ocurred, could not delete Customer";
+            }
         }
 
         private void LoadSelectCustomerToEdit(object? sender, EventArgs e)

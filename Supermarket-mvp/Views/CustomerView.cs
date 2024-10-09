@@ -116,12 +116,12 @@ namespace Supermarket_mvp.Views
         public string CustomerBirthday 
         {
             get { return TxtCustomerBirthday.Text; }
-            set { TxtCustomerAddress.Text = value; }
+            set { TxtCustomerBirthday.Text = value; }
         }
         public string CustomerPhoneNumber 
         {
-            get { return TxtCustomerBirthday.Text; }
-            set { TxtCustomerBirthday.Text = value; }
+            get { return TxtCustomerPhone.Text; }
+            set { TxtCustomerPhone.Text = value; }
         }
         public string CustomerEmail 
         {
