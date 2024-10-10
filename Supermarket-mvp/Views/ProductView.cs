@@ -88,27 +88,27 @@ namespace Supermarket_mvp.Views
             };
         }
 
-        public string ProductId 
+        public string ProductId
         {
             get { return TxtProductId.Text; }
             set { TxtProductId.Text = value; }
         }
-        public string ProductName 
+        public string ProductName
         {
             get { return TxtProductName.Text; }
             set { TxtProductName.Text = value; }
         }
-        public string ProductPrice 
+        public string ProductPrice
         {
             get { return TxtProductPrice.Text; }
             set { TxtProductPrice.Text = value; }
         }
-        public string ProductStock 
+        public string ProductStock
         {
             get { return TxtProductStock.Text; }
             set { TxtProductStock.Text = value; }
         }
-        public string ProductCategorie 
+        public string ProductCategorie
         {
             get { return ComboBoxProductCategory.Text; }
             set { ComboBoxProductCategory.Text = value; }

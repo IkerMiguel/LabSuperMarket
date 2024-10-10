@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\supermarket-mvp\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\ikmig\\source\\repos\\supermarket-mvp\\supermarket-mvp\\_repositories\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60263E0D-6467-4345-8C14-5A48E047F389}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\_repositories\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\Conexion.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\Conexion.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\Conexion.cs",
+              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:28:21.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PayModeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:23:16.084Z",
+              "WhenOpened": "2024-10-10T16:26:28.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\_Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\_Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Supermarket-mvp\\_Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAuwCoAAAAqAAAAAAAAAA==",
+              "Title": "ProductView.cs",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ProductView.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\ProductView.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ProductView.cs",
+              "RelativeToolTip": "Supermarket-mvp\\Views\\ProductView.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAtwKoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:23:11.358Z",
+              "WhenOpened": "2024-10-10T07:55:45.878Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ProductView.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\Views\\ProductView.cs",
+              "ToolTip": "C:\\Users\\ikmig\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Views\\ProductView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Supermarket-mvp\\Views\\ProductView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:35:30.575Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
