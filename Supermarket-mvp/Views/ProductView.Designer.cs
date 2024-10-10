@@ -29,37 +29,37 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
             label1 = new Label();
+            pictureBox1 = new PictureBox();
             tabControl1 = new TabControl();
             tabPageProductList = new TabPage();
-            tabPageProductDetail = new TabPage();
+            label2 = new Label();
+            DgProducts = new DataGridView();
+            TxtSearch = new TextBox();
             BtnClose = new Button();
             BtnDelete = new Button();
             BtnEdit = new Button();
             BtnNew = new Button();
             BtnSearch = new Button();
-            TxtSearch = new TextBox();
-            DgProducts = new DataGridView();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
+            tabPageProductDetail = new TabPage();
+            ComboBoxProductCategory = new ComboBox();
+            TxtProductStock = new TextBox();
+            TxtProductPrice = new TextBox();
+            TxtProductName = new TextBox();
+            TxtProductId = new TextBox();
             BtnCancel = new Button();
             BtnSave = new Button();
-            TxtProductId = new TextBox();
-            TxtProductName = new TextBox();
-            TxtProductPrice = new TextBox();
-            TxtProductStock = new TextBox();
-            ComboBoxProductCategory = new ComboBox();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabControl1.SuspendLayout();
             tabPageProductList.SuspendLayout();
-            tabPageProductDetail.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DgProducts).BeginInit();
+            tabPageProductDetail.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -72,16 +72,6 @@
             panel1.Size = new Size(800, 122);
             panel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.products;
-            pictureBox1.Location = new Point(12, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 95);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -91,6 +81,16 @@
             label1.Size = new Size(204, 59);
             label1.TabIndex = 2;
             label1.Text = "Products";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.products;
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(100, 95);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // tabControl1
             // 
@@ -121,27 +121,34 @@
             tabPageProductList.Text = "Product list";
             tabPageProductList.UseVisualStyleBackColor = true;
             // 
-            // tabPageProductDetail
+            // label2
             // 
-            tabPageProductDetail.Controls.Add(ComboBoxProductCategory);
-            tabPageProductDetail.Controls.Add(TxtProductStock);
-            tabPageProductDetail.Controls.Add(TxtProductPrice);
-            tabPageProductDetail.Controls.Add(TxtProductName);
-            tabPageProductDetail.Controls.Add(TxtProductId);
-            tabPageProductDetail.Controls.Add(BtnCancel);
-            tabPageProductDetail.Controls.Add(BtnSave);
-            tabPageProductDetail.Controls.Add(label7);
-            tabPageProductDetail.Controls.Add(label6);
-            tabPageProductDetail.Controls.Add(label5);
-            tabPageProductDetail.Controls.Add(label4);
-            tabPageProductDetail.Controls.Add(label3);
-            tabPageProductDetail.Location = new Point(4, 24);
-            tabPageProductDetail.Name = "tabPageProductDetail";
-            tabPageProductDetail.Padding = new Padding(3);
-            tabPageProductDetail.Size = new Size(792, 300);
-            tabPageProductDetail.TabIndex = 1;
-            tabPageProductDetail.Text = "Product detail";
-            tabPageProductDetail.UseVisualStyleBackColor = true;
+            label2.AutoSize = true;
+            label2.Location = new Point(20, 11);
+            label2.Name = "label2";
+            label2.Size = new Size(62, 15);
+            label2.TabIndex = 15;
+            label2.Text = "Product Id";
+            // 
+            // DgProducts
+            // 
+            DgProducts.AllowUserToAddRows = false;
+            DgProducts.AllowUserToDeleteRows = false;
+            DgProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DgProducts.Location = new Point(20, 70);
+            DgProducts.Name = "DgProducts";
+            DgProducts.ReadOnly = true;
+            DgProducts.Size = new Size(602, 218);
+            DgProducts.TabIndex = 14;
+            // 
+            // TxtSearch
+            // 
+            TxtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TxtSearch.Location = new Point(20, 29);
+            TxtSearch.Name = "TxtSearch";
+            TxtSearch.PlaceholderText = "Data to search";
+            TxtSearch.Size = new Size(539, 23);
+            TxtSearch.TabIndex = 13;
             // 
             // BtnClose
             // 
@@ -193,79 +200,66 @@
             BtnSearch.TabIndex = 8;
             BtnSearch.UseVisualStyleBackColor = true;
             // 
-            // TxtSearch
+            // tabPageProductDetail
             // 
-            TxtSearch.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            TxtSearch.Location = new Point(20, 29);
-            TxtSearch.Name = "TxtSearch";
-            TxtSearch.PlaceholderText = "Data to search";
-            TxtSearch.Size = new Size(539, 23);
-            TxtSearch.TabIndex = 13;
+            tabPageProductDetail.Controls.Add(ComboBoxProductCategory);
+            tabPageProductDetail.Controls.Add(TxtProductStock);
+            tabPageProductDetail.Controls.Add(TxtProductPrice);
+            tabPageProductDetail.Controls.Add(TxtProductName);
+            tabPageProductDetail.Controls.Add(TxtProductId);
+            tabPageProductDetail.Controls.Add(BtnCancel);
+            tabPageProductDetail.Controls.Add(BtnSave);
+            tabPageProductDetail.Controls.Add(label7);
+            tabPageProductDetail.Controls.Add(label6);
+            tabPageProductDetail.Controls.Add(label5);
+            tabPageProductDetail.Controls.Add(label4);
+            tabPageProductDetail.Controls.Add(label3);
+            tabPageProductDetail.Location = new Point(4, 24);
+            tabPageProductDetail.Name = "tabPageProductDetail";
+            tabPageProductDetail.Padding = new Padding(3);
+            tabPageProductDetail.Size = new Size(792, 300);
+            tabPageProductDetail.TabIndex = 1;
+            tabPageProductDetail.Text = "Product detail";
+            tabPageProductDetail.UseVisualStyleBackColor = true;
             // 
-            // DgProducts
+            // ComboBoxProductCategory
             // 
-            DgProducts.AllowUserToAddRows = false;
-            DgProducts.AllowUserToDeleteRows = false;
-            DgProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DgProducts.Location = new Point(20, 70);
-            DgProducts.Name = "DgProducts";
-            DgProducts.ReadOnly = true;
-            DgProducts.Size = new Size(602, 218);
-            DgProducts.TabIndex = 14;
+            ComboBoxProductCategory.FormattingEnabled = true;
+            ComboBoxProductCategory.Location = new Point(295, 75);
+            ComboBoxProductCategory.Name = "ComboBoxProductCategory";
+            ComboBoxProductCategory.Size = new Size(190, 23);
+            ComboBoxProductCategory.TabIndex = 14;
             // 
-            // label2
+            // TxtProductStock
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(20, 11);
-            label2.Name = "label2";
-            label2.Size = new Size(62, 15);
-            label2.TabIndex = 15;
-            label2.Text = "Product Id";
+            TxtProductStock.Location = new Point(295, 31);
+            TxtProductStock.Name = "TxtProductStock";
+            TxtProductStock.Size = new Size(190, 23);
+            TxtProductStock.TabIndex = 13;
             // 
-            // label3
+            // TxtProductPrice
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(8, 13);
-            label3.Name = "label3";
-            label3.Size = new Size(62, 15);
-            label3.TabIndex = 0;
-            label3.Text = "Product id";
+            TxtProductPrice.Location = new Point(8, 119);
+            TxtProductPrice.Name = "TxtProductPrice";
+            TxtProductPrice.Size = new Size(166, 23);
+            TxtProductPrice.TabIndex = 12;
             // 
-            // label4
+            // TxtProductName
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(8, 57);
-            label4.Name = "label4";
-            label4.Size = new Size(82, 15);
-            label4.TabIndex = 1;
-            label4.Text = "Product name";
+            TxtProductName.Location = new Point(8, 75);
+            TxtProductName.Name = "TxtProductName";
+            TxtProductName.Size = new Size(166, 23);
+            TxtProductName.TabIndex = 11;
             // 
-            // label5
+            // TxtProductId
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(8, 101);
-            label5.Name = "label5";
-            label5.Size = new Size(78, 15);
-            label5.TabIndex = 2;
-            label5.Text = "Product price";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(295, 13);
-            label6.Name = "label6";
-            label6.Size = new Size(80, 15);
-            label6.TabIndex = 3;
-            label6.Text = "Product stock";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(295, 57);
-            label7.Name = "label7";
-            label7.Size = new Size(98, 15);
-            label7.TabIndex = 4;
-            label7.Text = "Product category";
+            TxtProductId.Location = new Point(8, 31);
+            TxtProductId.Name = "TxtProductId";
+            TxtProductId.ReadOnly = true;
+            TxtProductId.Size = new Size(166, 23);
+            TxtProductId.TabIndex = 10;
+            TxtProductId.Text = "0";
+            TxtProductId.TextAlign = HorizontalAlignment.Right;
             // 
             // BtnCancel
             // 
@@ -285,44 +279,50 @@
             BtnSave.TabIndex = 8;
             BtnSave.UseVisualStyleBackColor = true;
             // 
-            // TxtProductId
+            // label7
             // 
-            TxtProductId.Location = new Point(8, 31);
-            TxtProductId.Name = "TxtProductId";
-            TxtProductId.ReadOnly = true;
-            TxtProductId.Size = new Size(166, 23);
-            TxtProductId.TabIndex = 10;
-            TxtProductId.Text = "0";
-            TxtProductId.TextAlign = HorizontalAlignment.Right;
+            label7.AutoSize = true;
+            label7.Location = new Point(295, 57);
+            label7.Name = "label7";
+            label7.Size = new Size(98, 15);
+            label7.TabIndex = 4;
+            label7.Text = "Product category";
             // 
-            // TxtProductName
+            // label6
             // 
-            TxtProductName.Location = new Point(8, 75);
-            TxtProductName.Name = "TxtProductName";
-            TxtProductName.Size = new Size(166, 23);
-            TxtProductName.TabIndex = 11;
+            label6.AutoSize = true;
+            label6.Location = new Point(295, 13);
+            label6.Name = "label6";
+            label6.Size = new Size(80, 15);
+            label6.TabIndex = 3;
+            label6.Text = "Product stock";
             // 
-            // TxtProductPrice
+            // label5
             // 
-            TxtProductPrice.Location = new Point(8, 119);
-            TxtProductPrice.Name = "TxtProductPrice";
-            TxtProductPrice.Size = new Size(166, 23);
-            TxtProductPrice.TabIndex = 12;
+            label5.AutoSize = true;
+            label5.Location = new Point(8, 101);
+            label5.Name = "label5";
+            label5.Size = new Size(78, 15);
+            label5.TabIndex = 2;
+            label5.Text = "Product price";
             // 
-            // TxtProductStock
+            // label4
             // 
-            TxtProductStock.Location = new Point(295, 31);
-            TxtProductStock.Name = "TxtProductStock";
-            TxtProductStock.Size = new Size(190, 23);
-            TxtProductStock.TabIndex = 13;
+            label4.AutoSize = true;
+            label4.Location = new Point(8, 57);
+            label4.Name = "label4";
+            label4.Size = new Size(82, 15);
+            label4.TabIndex = 1;
+            label4.Text = "Product name";
             // 
-            // ComboBoxProductCategory
+            // label3
             // 
-            ComboBoxProductCategory.FormattingEnabled = true;
-            ComboBoxProductCategory.Location = new Point(295, 75);
-            ComboBoxProductCategory.Name = "ComboBoxProductCategory";
-            ComboBoxProductCategory.Size = new Size(190, 23);
-            ComboBoxProductCategory.TabIndex = 14;
+            label3.AutoSize = true;
+            label3.Location = new Point(8, 13);
+            label3.Name = "label3";
+            label3.Size = new Size(62, 15);
+            label3.TabIndex = 0;
+            label3.Text = "Product id";
             // 
             // ProductView
             // 
@@ -339,9 +339,9 @@
             tabControl1.ResumeLayout(false);
             tabPageProductList.ResumeLayout(false);
             tabPageProductList.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DgProducts).EndInit();
             tabPageProductDetail.ResumeLayout(false);
             tabPageProductDetail.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)DgProducts).EndInit();
             ResumeLayout(false);
         }
 
