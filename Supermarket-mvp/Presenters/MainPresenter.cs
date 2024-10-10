@@ -28,8 +28,8 @@ namespace Supermarket_mvp.Presenters
         private void ShowProductView(object? sender, EventArgs e)
         {
             IProductView view = ProductView.GetInstace((MainView)mainView);
-            ICategorieRepository repository = new CategorieRepository(sqlConnectionString);
-            new CategoriePresenter(view, repository);
+            IProductRepository repository = new ProductRepository(sqlConnectionString);
+            new ProductPresenter(view, repository);
         }
 
         private void ShowCategorieView(object? sender, EventArgs e)
