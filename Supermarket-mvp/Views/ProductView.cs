@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Supermarket_mvp._Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,8 @@ namespace Supermarket_mvp.Views
         private bool isEdit;
         private bool isSuccessful;
         private string message;
+        CategorieId cat = new CategorieId();
+
         public ProductView()
         {
             InitializeComponent();
@@ -113,6 +116,7 @@ namespace Supermarket_mvp.Views
             get { return ComboBoxProductCategory.Text; }
             set { ComboBoxProductCategory.Text = value; }
         }
+
         public string SearchValue
         {
             get { return TxtSearch.Text; }
@@ -167,6 +171,14 @@ namespace Supermarket_mvp.Views
                 }
             }
             return instace;
+        }
+
+        private void ProductView_Load(object sender, EventArgs e)
+        {
+            ComboBoxProductCategory.DataSource = cat.CargarCombo();
+
+            ComboBoxProductCategory.DisplayMember = "Categorie_Id";
+            ComboBoxProductCategory.ValueMember = "Categorie_Id";
         }
     }
 }

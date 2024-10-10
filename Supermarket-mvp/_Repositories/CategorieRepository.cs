@@ -35,10 +35,27 @@ namespace Supermarket_mvp._Repositories
             using (var command = new SqlCommand())
             {
                 connection.Open();
-                command.Connection = connection;
-                command.CommandText = "DELETE FROM Categorie WHERE Categorie_Id = @id";
-                command.Parameters.Add("@id", SqlDbType.Int).Value = id;
-                command.ExecuteNonQuery();
+                using (var transaction = connection.BeginTransaction())
+                {
+                    try
+                    {
+                        command.Connection = connection;
+                        command.Transaction = transaction;
+                        command.CommandText = "DELETE FROM Product WHERE Categorie_Id = @id";
+                        command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+                        command.ExecuteNonQuery();
+
+                        command.CommandText = "DELETE FROM Categorie WHERE Categorie_Id = @id";
+                        command.ExecuteNonQuery();
+
+                        transaction.Commit();
+                    }
+                    catch (Exception)
+                    {
+                        transaction.Rollback();
+                        throw;
+                    }
+                }
             }
         }
 
